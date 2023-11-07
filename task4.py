@@ -56,7 +56,6 @@ def animate(frame):
 num_frames = len(x_plot)
 anim = FuncAnimation(fig, animate, frames=num_frames, repeat=True, blit=True)
 plt.show()
-
-anim.save("predicted_points_animation.gif", writer="pillow") 
+ 
 
 
